@@ -12,7 +12,7 @@ typedef struct {
 } Note;
 
 extern Note notes[MAX_NOTES];
-extern int count;
+extern int note_count;
 
 void init_notes();
 int add_note(const char* title, const char* content);
